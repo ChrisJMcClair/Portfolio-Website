@@ -34,14 +34,15 @@ export default function Home() {
       <Header />
 
       <section className="relative overflow-hidden border-b border-border">
-        <div className="mx-auto grid min-h-[calc(100vh-4rem)] max-w-7xl items-center gap-10 px-5 py-12 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:px-10">
+        <div className="mx-auto grid min-h-[calc(100vh-4rem)] max-w-7xl items-center gap-10 px-5 py-12 sm:px-8 lg:grid-cols-[1fr_0.78fr] lg:px-10">
           <div className="max-w-3xl">
             <Badge variant="outline" className="mb-6 gap-2 bg-background/70">
               <Sparkles className="size-3.5" />
               {profile.role} based in {profile.location}
             </Badge>
-            <h1 className="max-w-4xl text-5xl font-semibold leading-[1.02] tracking-normal sm:text-6xl lg:text-7xl">
-              {profile.name} builds practical software and automation tools.
+            <h1 className="max-w-4xl text-5xl font-semibold leading-[1.04] tracking-normal sm:text-6xl">
+              <span className="text-red-400">{profile.name}</span> solves
+              problems with software.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground sm:text-xl">
               I am a third-year Computer Science student currently gaining
@@ -81,18 +82,18 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-border bg-card shadow-2xl shadow-foreground/10">
+          <div>
+            <div className="relative mx-auto aspect-[4/5] max-w-[30rem] overflow-hidden rounded-lg border border-border bg-card shadow-2xl shadow-foreground/10">
               <Image
                 src="/cj-profile.jpeg"
-                alt="CJ McClair standing under colorful umbrella lights"
+                alt="Chris McClair standing under colorful umbrella lights"
                 fill
-                sizes="(min-width: 1024px) 45vw, 100vw"
+                sizes="(min-width: 1024px) 30rem, 100vw"
                 priority
-                className="object-cover object-[center_38%]"
+                className="object-cover object-[center_46%]"
               />
             </div>
-            <div className="absolute -bottom-5 left-5 right-5 rounded-lg border border-border bg-background/95 p-4 shadow-xl backdrop-blur">
+            <div className="mx-auto mt-4 max-w-[30rem] rounded-lg border border-border bg-card p-4 shadow-xl shadow-foreground/5">
               <div className="flex items-start gap-3">
                 <div className="flex size-10 shrink-0 items-center justify-center rounded-md bg-primary text-primary-foreground">
                   <Code2 className="size-5" />

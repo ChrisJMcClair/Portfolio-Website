@@ -39,7 +39,7 @@ export const experience = [
 
 export const projects = [
   {
-    title: "CJ McClair Portfolio",
+    title: "Chris McClair Portfolio",
     status: "Live build",
     summary:
       "This site is a deployable Next.js portfolio built to present experience, projects, and a workspace for future case studies.",
