@@ -74,7 +74,7 @@ export default function WorkspacePage() {
             Back home
           </Link>
 
-          <div className="grid gap-10 lg:grid-cols-[1fr_0.75fr] lg:items-end">
+          <div className="grid gap-10 lg:grid-cols-[1fr_0.62fr] lg:items-start">
             <div className="max-w-3xl">
               <Badge variant="outline" className="mb-5 gap-2">
                 <Smartphone className="size-3.5" />
@@ -91,18 +91,18 @@ export default function WorkspacePage() {
               </p>
             </div>
 
-            <Card className="overflow-hidden">
+            <Card className="mt-0 overflow-hidden lg:mt-12">
               <div className="relative aspect-square bg-[#16f26d]">
                 <Image
                   src="/spendly-logo.jpg"
                   alt="Spendly shopping cart logo"
                   fill
                   priority
-                  sizes="(min-width: 1024px) 28rem, 100vw"
+                  sizes="(min-width: 1024px) 24rem, 100vw"
                   className="object-cover"
                 />
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_42%,rgba(0,0,0,0.5)_100%)]" />
-                <div className="absolute inset-0 shadow-[inset_0_0_120px_rgba(0,0,0,0.38)]" />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_45%,rgba(0,0,0,0.48)_100%)]" />
+                <div className="absolute inset-0 shadow-[inset_0_0_90px_rgba(0,0,0,0.38)]" />
               </div>
               <CardContent className="p-6">
                 <div className="mb-4">
