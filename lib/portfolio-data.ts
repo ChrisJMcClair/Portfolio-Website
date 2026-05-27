@@ -59,14 +59,14 @@ export const projects = [
     href: "#experience",
   },
   {
-    title: "Placeholder Project",
-    status: "Placeholder",
+    title: "Spendly",
+    status: "Planning",
     summary:
-      "Placeholder for my next project (mobile app)",
+      "A shared shopping list mobile app for families, partners, flatmates, and small groups.",
     impact:
-      "Placeholder text",
-    stack: ["Placeholder"],
-    href: "#contact",
+      "The goal is to explore mobile UX, private circles, real-time shared lists, and useful coordination without overcomplicating the product.",
+    stack: ["Mobile app", "TypeScript", "Real-time data", "Product design"],
+    href: "/workspace",
   },
 ];
 
@@ -121,9 +121,9 @@ export const workspaceItems = [
     tags: ["Projects", "Writing", "Evidence"],
   },
   {
-    title: "Placeholder Area",
+    title: "Spendly Build Log",
     description:
-      "Placeholder for future hackathon or something.",
-    tags: ["Placeholder"],
+      "Notes, design decisions, technical tradeoffs, and progress updates for the shared shopping list app.",
+    tags: ["Mobile app", "Product", "Build log"],
   },
 ];
