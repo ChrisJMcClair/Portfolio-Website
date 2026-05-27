@@ -165,8 +165,8 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
           <SectionHeading
             eyebrow="Featured Work"
-            title="Projects with room for evidence, not filler."
-            description="This area keeps real builds, internship work, and placeholders separate so the site can mature without pretending everything is finished."
+            title="Portfolio Projects"
+            description="Space for real projects being built, and that have been built"
           />
           <div className="mt-10 grid gap-5 lg:grid-cols-3">
             {projects.map((project) => (
