@@ -261,7 +261,7 @@ export default function Home() {
               <SectionHeading
                 eyebrow="Workspace"
                 title="A place to keep adding evidence."
-                description="The workspace route gives you a structured area for project notes, experiments, case studies, and future content as your portfolio matures."
+                description="future notes and future content "
               />
               <Link
                 href="/workspace"
